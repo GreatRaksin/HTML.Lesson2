@@ -1,0 +1,43 @@
+/* Hello, my name is CSS. There is a one rule:
+ selector {
+    property: value;
+ }
+ */
+
+/* Привет, меня зовут CSS. Есть одно правило%
+селектор {
+    свойство: значение;
+}
+*/
+body {
+    margin: 0;
+}
+
+.list {
+    display: flex;
+    justify-content: center;
+    font-size: 2em;
+}
+
+.active {
+    color: chartreuse;
+    text-decoration: underline;
+}
+
+.complete {
+    color: darkgray;
+    text-decoration: line-through;
+}
+.common {
+    color: rosybrown;
+}
+
+p {
+    font-size: 2em;
+    text-align: center;
+    color: red;
+    border: 0.5px solid orange;
+}
+td {
+    padding: 0 7px;
+}
